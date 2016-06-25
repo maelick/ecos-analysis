@@ -16,7 +16,7 @@ import tarfile
 import pandas
 
 
-INPUT_FILEPATH = 'raw/raw.tar.gz'
+INPUT_FILEPATH = 'raw.tar.gz'
 OUTPUT_FILEPATH = 'data/packages.csv'
 
 FIELDS = dict(
