@@ -67,7 +67,7 @@ def get_package(package):
     return res
 
 
-def get_release(package, version):
+def get_distribution(package, version):
     """
     Return all available information about given version for given package
     """
@@ -85,7 +85,7 @@ def get_package_releases(package):
         logger.exception('Error while getting package data for {}'.format(package))
         return
     
-    logger.info('{}: {} version(s) found'.format(package, len(versions)))
+    logger.info('{}: {} distribution(s) found'.format(package, len(versions)))
         
     # Create directory if it does not exist
     directory = os.path.join(OUTPUT_PATH, package)
@@ -97,16 +97,16 @@ def get_package_releases(package):
         filepath = os.path.join(directory, version)
         if not os.path.exists(filepath):
             try:
-                release = get_release(package, version)
-                # Drop other releases
-                release.pop('releases')
+                distribution = get_distribution(package, version)
+                # Drop other distributions
+                distribution.pop('distributions')
             except Exception as e:
-                logger.exception('Error while getting release data for version {} of {}'.format(version, package))
+                logger.exception('Error while getting distribution data for version {} of {}'.format(version, package))
                 continue
                 
             logger.debug('Storing version {} for {}'.format(version, package))
             with open(filepath, 'w') as f: 
-                json.dump(release, f)
+                json.dump(distribution, f)
         else:
             logger.debug('Skipping version {} for {}'.format(version, package))
 

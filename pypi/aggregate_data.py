@@ -48,7 +48,7 @@ if __name__ == '__main__':
     tar = tarfile.open(INPUT_FILEPATH, mode='r:gz')
 
     data = []
-    for item in tqdm.tqdm(tar.getmembers(), desc='Releases'):
+    for item in tqdm.tqdm(tar.getmembers(), desc='Distributions'):
         if item.isfile():
             with tar.extractfile(item) as f:
                 binary_data = '\n'.join((x.decode('utf-8') for x in f.readlines()))
