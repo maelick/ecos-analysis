@@ -106,7 +106,8 @@ if __name__ == '__main__':
                 versions = mapping.get(name, None)
                                 
                 if versions is None:
-                    LOGGER.debug('Unknown package %s for requirement %s (%s, %s)' % (name, requirement, package, version))
+                    LOGGER.info('Unknown package %s for requirement %s (%s, %s)' % (name, requirement, package, version))
+                    canonical_requirements[name] = []
                     continue
 
                 matched = matched_versions(versions.keys(), requirement.specifier)
@@ -127,7 +128,10 @@ if __name__ == '__main__':
                 depends = []
                 for name, versions in requirements.items():
                     s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
-                    depends.append(s)
+                    if len(s) > 0:
+                        depends.append(s)
+                    else:
+                        depends.append(name)
 
                 f.write(', '.join(depends))
                 f.write('\n')
