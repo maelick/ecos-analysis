@@ -53,15 +53,20 @@ def fetch_package_list(dest):
     Fetch npm package list, store the result in dest
     """
     req = requests.get(os.path.join(REGISTRY_URL, '-/all'))
-    with open(dest, 'w') as f:
-        f.write(req.text.encode('utf-8'))
+    if req.status_code == 200:
+        with open(dest, 'w') as f:
+            f.write(req.text.encode('utf-8'))
 
 def get_package(package):
     """
     Return package meta-data
     """
     req = requests.get(os.path.join(REGISTRY_URL, package))
-    return req.text
+    if req.status_code == 200:
+        return req.text
+    else:
+        raise ValueError('unable to fetch metadata for {} (status code: {})'.format(package, req.status_code))
+
 
 def get_package_metadata(package):
     """
