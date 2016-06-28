@@ -1,7 +1,9 @@
 from packaging.version import Version, InvalidVersion
-from packaging.requirements import Requirement
+from packaging.requirements import Requirement, InvalidRequirement
+from packaging.utils import canonicalize_name
 import logging
 import csv
+import tqdm
 
 DEBUG = False
 
@@ -10,26 +12,18 @@ LOGGER.setLevel(logging.ERROR if not DEBUG else logging.DEBUG)
 
 
 INPUT_FILEPATH = 'data/packages.csv'
+OUTPUT_FILEPATH = 'data/cudf.txt'
 
-def order_versions(versions):
+
+def matched_versions(versions, specifier):
     """
-    Return an ordered list of versions (containing version strings)
+    Return items from versions that match given specifier 
+    (a packaging.specifier.SpecifierSet object). 
     """
-    return sorted(versions, key=Version)
+    return list(specifier.filter(versions))
 
 
-def is_version(version):
-    """
-    Return True if given string is a proper version number.
-    """
-    try:
-        Version(version)
-        return True
-    except (TypeError, InvalidVersion) as e: 
-        return False
-
-
-def load_data(csv_filepath):
+def load_data(csv_filepath, show_progress=False):
     """
     Return a dict d of dict v of list m such that:
     d is a mapping from package name to a dict of distributions v. 
@@ -44,8 +38,11 @@ def load_data(csv_filepath):
 
 
     d = {}
-    for distribution in content: 
-        name = distribution[headers['info_name']]
+    if show_progress:
+        content = tqdm.tqdm(content, smoothing=0.9)
+
+    for i, distribution in enumerate(content): 
+        name = canonicalize_name(distribution[headers['info_name']])
         version = distribution[headers['info_version']]
         requires = distribution[headers['info_requires']]
         requires_dist = distribution[headers['info_requires_dist']]
@@ -76,9 +73,62 @@ def load_data(csv_filepath):
         for dependency in dependencies:
             try:
                 m.append(Requirement(dependency))
-            except Exception as e:
+            except InvalidRequirement as e:
                 LOGGER.debug('Invalid dependency %s for %s, %s' % (dependency, name, version))
+
+    if show_progress:
+        print()
 
     return d
     
 
+if __name__ == '__main__':
+    # Get data
+    print('Loading data')
+    data = load_data(INPUT_FILEPATH, show_progress=True)
+
+    # For each package, create a mapping between "python version" to "canonical version"
+    print('Create versions mapping')
+    mapping = {}
+    for package, distributions in tqdm.tqdm(data.items()):
+        versions = distributions.keys()
+        mapping[package] = {v: i + 1 for i, v in enumerate(sorted(versions))}
+
+
+    print('Canonicalizing requirements')
+    output = []
+    for package, distributions in tqdm.tqdm(data.items(), smoothing=0.9):
+        for version, requirements in tqdm.tqdm(distributions.items(), desc=package[:8], leave=False):
+            canonical_requirements = {}
+
+            for requirement in requirements:
+                name = canonicalize_name(requirement.name)
+                versions = mapping.get(name, None)
+                                
+                if versions is None:
+                    LOGGER.debug('Unknown package %s for requirement %s (%s, %s)' % (name, requirement, package, version))
+                    continue
+
+                matched = matched_versions(versions.keys(), requirement.specifier)
+                canonical_matched = [versions[v] for v in matched]
+                canonical_requirements[name] = canonical_matched
+
+            output.append((package, mapping[package][version], canonical_requirements))
+
+    print('Export to CUDF')
+    with open(OUTPUT_FILEPATH, 'w') as f:
+        for package, version, requirements in tqdm.tqdm(output):
+            f.write('package: %s\n' % package)
+            f.write('version: %d\n' % version)
+            f.write('conflict: %s\n' % package)
+            f.write('depends: ')
+
+            depends = []
+            for name, versions in requirements.items():
+                s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
+                depends.append(s)
+
+            f.write(', '.join(depends))
+            f.write('\n\n')
+
+    print('Done')
