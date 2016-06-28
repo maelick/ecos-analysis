@@ -121,14 +121,15 @@ if __name__ == '__main__':
             f.write('package: %s\n' % package)
             f.write('version: %d\n' % version)
             f.write('conflicts: %s\n' % package)
-            f.write('depends: ')
+            if len(requirements) > 0:
+                f.write('depends: ')
 
-            depends = []
-            for name, versions in requirements.items():
-                s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
-                depends.append(s)
+                depends = []
+                for name, versions in requirements.items():
+                    s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
+                    depends.append(s)
 
-            f.write(', '.join(depends))
-            f.write('\n\n')
-
+                f.write(', '.join(depends))
+                f.write('\n')
+            f.write('\n')     
     print('Done')
