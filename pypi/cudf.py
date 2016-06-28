@@ -120,7 +120,7 @@ if __name__ == '__main__':
         for package, version, requirements in tqdm.tqdm(output):
             f.write('package: %s\n' % package)
             f.write('version: %d\n' % version)
-            f.write('conflict: %s\n' % package)
+            f.write('conflicts: %s\n' % package)
             f.write('depends: ')
 
             depends = []
