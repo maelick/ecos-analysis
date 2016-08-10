@@ -169,12 +169,8 @@ def deps(p):
         md = json.load(f)
     if 'versions' in md:
         versions = md['versions']
-        for v in versions:
-            if 'dependencies' in versions:
-                versions[v] = versions['dependencies']
-            else:
-                versions[v] = None
-        return versions
+        return p, {v: deps.get('dependencies', None)
+                   for v, deps in versions.items()}
 
 
 if __name__ == '__main__':
@@ -191,10 +187,12 @@ if __name__ == '__main__':
     pool = Pool(WORKERS)
 
     it = pool.imap_unordered(versions, packages, chunksize=1)
-    versions = dict(x for x in tqdm.tqdm(it, desc='Versions', total=len(packages)) if x is not None)
+    versions = dict(x for x in tqdm.tqdm(it, desc='Versions', total=len(packages))
+                    if x is not None)
 
     it = pool.imap_unordered(deps, packages, chunksize=1)
-    deps = [x for x in tqdm.tqdm(it, desc='Packages', total=len(packages))]
+    deps = dict(x for x in tqdm.tqdm(it, desc='Dependencies', total=len(packages))
+                if x is not None)
 
     with open(os.path.join(OUTPUT_PATH, 'versions.json'), 'w') as f:
         json.dump(versions, f)
