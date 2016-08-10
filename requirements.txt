@@ -1,7 +1,0 @@
-jupyter
-matplotlib
-pandas
-requests
-seaborn
-tqdm
-packaging

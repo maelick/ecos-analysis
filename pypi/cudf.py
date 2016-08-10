@@ -106,7 +106,8 @@ if __name__ == '__main__':
                 versions = mapping.get(name, None)
                                 
                 if versions is None:
-                    LOGGER.debug('Unknown package %s for requirement %s (%s, %s)' % (name, requirement, package, version))
+                    LOGGER.info('Unknown package %s for requirement %s (%s, %s)' % (name, requirement, package, version))
+                    canonical_requirements[name] = []
                     continue
 
                 matched = matched_versions(versions.keys(), requirement.specifier)
@@ -120,15 +121,19 @@ if __name__ == '__main__':
         for package, version, requirements in tqdm.tqdm(output):
             f.write('package: %s\n' % package)
             f.write('version: %d\n' % version)
-            f.write('conflict: %s\n' % package)
-            f.write('depends: ')
+            f.write('conflicts: %s\n' % package)
+            if len(requirements) > 0:
+                f.write('depends: ')
 
-            depends = []
-            for name, versions in requirements.items():
-                s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
-                depends.append(s)
+                depends = []
+                for name, versions in requirements.items():
+                    s = ' | '.join(['{} = {}'.format(name, version) for version in versions])
+                    if len(s) > 0:
+                        depends.append(s)
+                    else:
+                        depends.append(name)
 
-            f.write(', '.join(depends))
-            f.write('\n\n')
-
+                f.write(', '.join(depends))
+                f.write('\n')
+            f.write('\n')     
     print('Done')
