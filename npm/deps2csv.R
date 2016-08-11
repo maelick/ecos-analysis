@@ -18,7 +18,7 @@ ParseDependencies <- function(p) {
       deps <- deps[sapply(deps, inherits, "character")]
       deps <- deps[sapply(deps, length) == 1]
       if (length(deps)) {
-        data.table(package=p, dependency=names(deps), version=deps)
+        data.table(package=p, version=v, dependency=names(deps), constraint=deps)
       }
     }
   }))
