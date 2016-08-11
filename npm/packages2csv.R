@@ -14,3 +14,4 @@ packages <- rbindlist(lapply(names(packages), function(p) {
   data.table(package=p, version=names(versions), time=versions)
 }))
 write.csv(packages, gzfile("data/packages.csv.gz"), row.names=FALSE)
+write.csv(packages, "data/packages.csv", row.names=FALSE)

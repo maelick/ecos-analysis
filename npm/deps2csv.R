@@ -25,7 +25,8 @@ ParseDependencies <- function(p) {
 }
 
 deps <- rbindlist(lapply(names(deps), ParseDependencies))
-if (inherits(deps$version, "list")) {
-  deps[, version := unlist(version)]
+if (inherits(deps$constraint, "list")) {
+  deps[, constraint := unlist(constraint)]
 }
 write.csv(deps, gzfile("data/deps.csv.gz"), row.names=FALSE)
+write.csv(deps, "data/deps.csv", row.names=FALSE)
