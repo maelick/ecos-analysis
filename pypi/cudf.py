@@ -11,7 +11,7 @@ LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.ERROR if not DEBUG else logging.DEBUG)
 
 
-INPUT_FILEPATH = 'data/packages.csv'
+INPUT_FILEPATH = 'data/metadata.csv'
 OUTPUT_FILEPATH = 'data/cudf.txt'
 
 

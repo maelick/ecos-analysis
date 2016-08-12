@@ -18,7 +18,7 @@ import tqdm
 
 
 INPUT_FILEPATH = 'raw.tar.gz'
-OUTPUT_FILEPATH = 'data/packages.csv'
+OUTPUT_FILEPATH = 'data/metadata.csv'
 
 FIELDS = dict(
     info=['name', 'version', 'author', 'home_page', 'licence', 
