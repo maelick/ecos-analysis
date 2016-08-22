@@ -28,4 +28,5 @@ system.time(res <- with(data, mapply(function(source, repository, ref) {
 
 data$size <- res
 
-write.csv(data, "data/pkg-sizes.csv", row.names=FALSE)
+write.csv(data[, list(package=repository, version=ref, size, nfunc, loc)],
+               "data/pkg-sizes.csv", row.names=FALSE)
