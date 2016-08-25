@@ -1,6 +1,5 @@
 library(data.table)
 library(igraph)
-library(rjson)
 
 packages <- fread("data/packages.csv")
 deps <- fread("data/deps.csv")
