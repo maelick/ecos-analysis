@@ -11,28 +11,17 @@ data <- merge(index[source == "cran"], functions,
               by=c("source", "repository", "ref"), all.x=TRUE)
 data[is.na(loc), loc := 0]
 data[is.na(nfunc), nfunc := 0]
-
+.
 DiskUsage <- function(path) {
   res <- system2("du", c("-s", path), stdout=TRUE)
   strsplit(res, "\t")[[1]][1]
 }
 
-system.time(res <- with(data, mapply(function(source, repository, ref) {
+system.time(data$size <- with(data, mapply(function(source, repository, ref) {
   path <- file.path(datadir, "cran/packages",
                     repository, ref, repository)
-  print(path)
-  if (file.exists(path)) {
-    DiskUsage(path)
-  } else "0K"
+  DiskUsage(path)
 }, source, repository, ref)))
-
-data$size <- res
-
-## data[, size := {
-##   unit <- substring(data$size, nchar(data$size))
-##   value <- substring(data$size, 1, nchar(data$size) - 1)
-##   unit <- as.integer(unit)
-## }]
 
 write.csv(data[, list(package=repository, version=ref, size, nfunc, loc)],
                "data/sizes.csv", row.names=FALSE)

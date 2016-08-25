@@ -1,9 +1,9 @@
 library(data.table)
 library(igraph)
 
-packages <- fread("data/packages.csv")
+packages <- as.data.table(read.csv(gzfile("data/packages.csv.gz"), stringsAsFactors=FALSE))
 packages <- packages[, list(version=version[time == max(time)]), by="package"]
-deps <- fread("data/deps.csv")
+deps <- as.data.table(read.csv(gzfile("data/deps.csv.gz"), stringsAsFactors=FALSE))
 
 deps <- merge(deps, packages, by=c("package", "version"))
 deps <- unique(deps[dependency %in% packages$package, list(package, dependency)])
