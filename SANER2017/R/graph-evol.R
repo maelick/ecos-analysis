@@ -45,11 +45,11 @@ for (e in ecos) {
   deps <- unique(deps[, list(package, version, dependency)])
   sizes <- setkey(fread(sprintf(filename2, e)), package, version)
   for (d in as.character(dates)) {
-    f <- sprintf("../data/graphs/%s-%s.graphml", e, d)
+    f <- sprintf("../data/graphs/%s-%s.graphml.gz", e, d)
     if (!file.exists(f)) {
       g <- DependencyGraph(d, packages, deps)
       g <- Sizes(g, sizes)
-      write_graph(g, f, format="graphml")
+      write_graph(g, gzfile(f, "wb"), format="graphml")
     }
   }
 }
