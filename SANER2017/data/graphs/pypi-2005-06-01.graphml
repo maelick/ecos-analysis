@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">jonpy</data>
+      <data key="v_version">0.06</data>
+      <data key="v_size">49022</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">ll-toxic</data>
+      <data key="v_version">0.6.1</data>
+      <data key="v_size">6411</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">ll-core</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">4286</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">roundup</data>
+      <data key="v_version">0.8.3</data>
+      <data key="v_size">911517</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">ll-xist</data>
+      <data key="v_version">2.10</data>
+      <data key="v_size">239518</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">WebStack</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">150907</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">pyWebSMS</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">16753</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">rlcompleter2</data>
+      <data key="v_version">0.96</data>
+      <data key="v_size">10965</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">pygenx</data>
+      <data key="v_version">0.5.3</data>
+      <data key="v_size">50585</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">ll-orasql</data>
+      <data key="v_version">0.4.1</data>
+      <data key="v_size">4699</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">ZConfig</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">163766</data>
+    </node>
+  </graph>
+</graphml>

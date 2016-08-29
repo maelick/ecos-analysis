@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">roundup</data>
+      <data key="v_version">0.8.2</data>
+      <data key="v_size">733693</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">rlcompleter2</data>
+      <data key="v_version">0.96</data>
+      <data key="v_size">10965</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">pygenx</data>
+      <data key="v_version">0.5.3</data>
+      <data key="v_size">50585</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">ZConfig</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">163766</data>
+    </node>
+  </graph>
+</graphml>

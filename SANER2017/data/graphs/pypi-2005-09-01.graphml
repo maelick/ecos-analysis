@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">medusa</data>
+      <data key="v_version">0.5.4</data>
+      <data key="v_size">107744</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">lazytools</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">5701</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">FreeSpeak</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">37492</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">jwzthreading</data>
+      <data key="v_version">0.91</data>
+      <data key="v_size">5150</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">easydeb</data>
+      <data key="v_version">0.1.3</data>
+      <data key="v_size">20073</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">fcgiapp</data>
+      <data key="v_version">1.4</data>
+      <data key="v_size">26114</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">pyExcelerator</data>
+      <data key="v_version">0.5.3a</data>
+      <data key="v_size">179992</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">pytz</data>
+      <data key="v_version">2005k</data>
+      <data key="v_size">97483</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">FormEncode</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">82801</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">jonpy</data>
+      <data key="v_version">0.06</data>
+      <data key="v_size">49022</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">ll-toxic</data>
+      <data key="v_version">0.6.3</data>
+      <data key="v_size">7705</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">pyipc</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">5467</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">nattraverso</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">72138</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">ll-core</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">7971</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">remote-microscope</data>
+      <data key="v_version">2.0a3</data>
+      <data key="v_size">105878</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">OpenPGP</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">254434</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">zpkg</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">145351</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Sancho</data>
+      <data key="v_version">0.11</data>
+      <data key="v_size">21577</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">roundup</data>
+      <data key="v_version">0.8.4</data>
+      <data key="v_size">909602</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">ll-xist</data>
+      <data key="v_version">2.11</data>
+      <data key="v_size">264167</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">SQLObject</data>
+      <data key="v_version">0.7b1</data>
+      <data key="v_size">175705</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">WebStack</data>
+      <data key="v_version">0.10</data>
+      <data key="v_size">160172</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">pyWebSMS</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">16753</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">rlcompleter2</data>
+      <data key="v_version">0.96</data>
+      <data key="v_size">10965</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">pytaskplan</data>
+      <data key="v_version">1.3.2</data>
+      <data key="v_size">9839</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">pygenx</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">33694</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">functools</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">4913</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">ll-orasql</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">7571</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">PyPedal</data>
+      <data key="v_version">2.0.0a18</data>
+      <data key="v_size">671072</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">LSystem2</data>
+      <data key="v_version">1.2</data>
+      <data key="v_size">5681</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">pyIrcServer</data>
+      <data key="v_version">0.0.5.0-Alpha</data>
+      <data key="v_size">86120</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">pxc200</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">2562</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">ZConfig</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">163766</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">Quixote</data>
+      <data key="v_version">2.0a5</data>
+      <data key="v_size">184897</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">buildutils</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">67697</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">typecheck</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">8551</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">PasteDeploy</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">16197</data>
+    </node>
+  </graph>
+</graphml>

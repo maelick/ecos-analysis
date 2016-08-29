@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">akismet</data>
+      <data key="v_version">0.0.6</data>
+      <data key="v_size">1420</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">argsparser</data>
+      <data key="v_version">0.0.3</data>
+      <data key="v_size">2733</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">async</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">9510</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">benchmark</data>
+      <data key="v_version">0.1.4</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">bitcoin</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">3794</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">bufferlist</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">10455</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">calais</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">2329</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">canvas</data>
+      <data key="v_version">0.4.2</data>
+      <data key="v_size">30619</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">carena</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">21931</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">castaneum</data>
+      <data key="v_version">0.1.8</data>
+      <data key="v_size">356327</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">chains</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">27409</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">chainsaw</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">3856</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">chaos</data>
+      <data key="v_version">0.0.1a</data>
+      <data key="v_size">3584</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">cider</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">16437</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">cli</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">5112</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">cloudfiles</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">14418</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">cloudservers</data>
+      <data key="v_version">0.2.0</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">coco</data>
+      <data key="v_version">0.2.0</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">coffee-script</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">58666</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">common-exception</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">10543</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">connect</data>
+      <data key="v_version">0.3.0</data>
+      <data key="v_size">663085</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">connect-redis</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">5472</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">crc</data>
+      <data key="v_version">0.1.0</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">creationix</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">2438</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">creek</data>
+      <data key="v_version">0.1.4</data>
+      <data key="v_size">8293</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">crontab</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">25809</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">dht</data>
+      <data key="v_version">0.0.2</data>
+      <data key="v_size">9053</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">dir2html</data>
+      <data key="v_version">0.0.1</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">discount</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">3234</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">dnode</data>
+      <data key="v_version">0.4.2</data>
+      <data key="v_size">29291</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">erlang</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">3379</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">err</data>
+      <data key="v_version">0.1.1</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">eventemitter</data>
+      <data key="v_version">0.3.2</data>
+      <data key="v_size">1822</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">express</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">2169113</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">expresso</data>
+      <data key="v_version">0.7.2</data>
+      <data key="v_size">1589110</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">express-session-mongo</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">3305</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">facebook-client</data>
+      <data key="v_version">1.1.0</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">faye</data>
+      <data key="v_version">0.5.4</data>
+      <data key="v_size">37905</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">forever</data>
+      <data key="v_version">0.3.1</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">github</data>
+      <data key="v_version">0.0.4</data>
+      <data key="v_size">32073</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">grain</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">3900</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">hacktor</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">2887</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">hanging-gardens</data>
+      <data key="v_version">1.1.3</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">hiker</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">21247</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">html5</data>
+      <data key="v_version">0.2.6</data>
+      <data key="v_size">5118840</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">http-proxy-selective</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">2267</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">iniparser</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">2216</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">irc-js</data>
+      <data key="v_version">0.2.7</data>
+      <data key="v_size">59632</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">jade</data>
+      <data key="v_version">0.6.1</data>
+      <data key="v_size">25521</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">jasmine-node</data>
+      <data key="v_version">1.0.0rc1</data>
+      <data key="v_size">19259</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">jerk</data>
+      <data key="v_version">1.1.1</data>
+      <data key="v_size">604321</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">jison</data>
+      <data key="v_version">0.1.27</data>
+      <data key="v_size">231312</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">Jody</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">6578</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">jqtpl</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">6459</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">json-command</data>
+      <data key="v_version">0.0.5</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">linter</data>
+      <data key="v_version">0.0.2</data>
+      <data key="v_size">3694567</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">lsof</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">2536</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">markdown</data>
+      <data key="v_version">0.2.0</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">memo</data>
+      <data key="v_version">0.1.0a</data>
+      <data key="v_size">4109</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">milk</data>
+      <data key="v_version">0.5.0</data>
+      <data key="v_size">27709</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">mongoose</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">18451</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">monitor</data>
+      <data key="v_version">0.2.7</data>
+      <data key="v_size">18428</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">nack</data>
+      <data key="v_version">0.1.8</data>
+      <data key="v_size">33249</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">natives</data>
+      <data key="v_version">0.0.5</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">nave</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">3413</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">neco</data>
+      <data key="v_version">0.0.1-alpha2</data>
+      <data key="v_size">80145</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">neko</data>
+      <data key="v_version">1.0.9</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">nix</data>
+      <data key="v_version">0.0.3</data>
+      <data key="v_size">13443</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">nmd</data>
+      <data key="v_version">0.1.8</data>
+      <data key="v_size">2852</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">node-dev</data>
+      <data key="v_version">0.0.5</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">node-int64</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">2680</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">node.io</data>
+      <data key="v_version">0.2.1-9</data>
+      <data key="v_size">52901</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">node-spec</data>
+      <data key="v_version">0.0.4</data>
+      <data key="v_size">2165</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">noid</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">938005</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">object-additions</data>
+      <data key="v_version">0.5.0</data>
+      <data key="v_size">2044</data>
+    </node>
+    <node id="n75">
+      <data key="v_name">odot</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">6807</data>
+    </node>
+    <node id="n76">
+      <data key="v_name">optimist</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">5809</data>
+    </node>
+    <node id="n77">
+      <data key="v_name">pack</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">813258</data>
+    </node>
+    <node id="n78">
+      <data key="v_name">persistencejs</data>
+      <data key="v_version">0.2.4</data>
+      <data key="v_size">1270120</data>
+    </node>
+    <node id="n79">
+      <data key="v_name">pg</data>
+      <data key="v_version">0.2.2</data>
+    </node>
+    <node id="n80">
+      <data key="v_name">pigeons</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">304251</data>
+    </node>
+    <node id="n81">
+      <data key="v_name">pubsubd</data>
+      <data key="v_version">0.0.0</data>
+    </node>
+    <node id="n82">
+      <data key="v_name">push-it</data>
+      <data key="v_version">0.0.0r3</data>
+      <data key="v_size">228052</data>
+    </node>
+    <node id="n83">
+      <data key="v_name">q</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">13422</data>
+    </node>
+    <node id="n84">
+      <data key="v_name">qrcode</data>
+      <data key="v_version">0.0.2</data>
+      <data key="v_size">11739</data>
+    </node>
+    <node id="n85">
+      <data key="v_name">recon</data>
+      <data key="v_version">0.0.6</data>
+      <data key="v_size">2822</data>
+    </node>
+    <node id="n86">
+      <data key="v_name">redis</data>
+      <data key="v_version">0.0.8</data>
+      <data key="v_size">11747</data>
+    </node>
+    <node id="n87">
+      <data key="v_name">reloaded</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">80658</data>
+    </node>
+    <node id="n88">
+      <data key="v_name">roil</data>
+      <data key="v_version">0.1.2</data>
+    </node>
+    <node id="n89">
+      <data key="v_name">schema</data>
+      <data key="v_version">0.1.0a</data>
+      <data key="v_size">14964</data>
+    </node>
+    <node id="n90">
+      <data key="v_name">scraper</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">3743</data>
+    </node>
+    <node id="n91">
+      <data key="v_name">seq</data>
+      <data key="v_version">0.0.11</data>
+      <data key="v_size">6342</data>
+    </node>
+    <node id="n92">
+      <data key="v_name">sh</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">78956</data>
+    </node>
+    <node id="n93">
+      <data key="v_name">shorty</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">23851</data>
+    </node>
+    <node id="n94">
+      <data key="v_name">simple-mime</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">2518</data>
+    </node>
+    <node id="n95">
+      <data key="v_name">sinon</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">65961</data>
+    </node>
+    <node id="n96">
+      <data key="v_name">sinon-nodeunit</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">151841</data>
+    </node>
+    <node id="n97">
+      <data key="v_name">socket.io</data>
+      <data key="v_version">0.3.8</data>
+      <data key="v_size">86465</data>
+    </node>
+    <node id="n98">
+      <data key="v_name">spark</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">7496</data>
+    </node>
+    <node id="n99">
+      <data key="v_name">spark2</data>
+      <data key="v_version">2.0.7</data>
+      <data key="v_size">9579</data>
+    </node>
+    <node id="n100">
+      <data key="v_name">sprintf</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">3398</data>
+    </node>
+    <node id="n101">
+      <data key="v_name">stack</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">1824</data>
+    </node>
+    <node id="n102">
+      <data key="v_name">stack.static</data>
+      <data key="v_version">0.0.3</data>
+      <data key="v_size">6860</data>
+    </node>
+    <node id="n103">
+      <data key="v_name">stitch</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">6212</data>
+    </node>
+    <node id="n104">
+      <data key="v_name">stomp</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">6760</data>
+    </node>
+    <node id="n105">
+      <data key="v_name">strftime</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">2434</data>
+    </node>
+    <node id="n106">
+      <data key="v_name">styout</data>
+      <data key="v_version">0.5.2</data>
+      <data key="v_size">3514</data>
+    </node>
+    <node id="n107">
+      <data key="v_name">supervisor</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">3134</data>
+    </node>
+    <node id="n108">
+      <data key="v_name">temp</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">4539</data>
+    </node>
+    <node id="n109">
+      <data key="v_name">testosterone</data>
+      <data key="v_version">0.0.6</data>
+      <data key="v_size">3120</data>
+    </node>
+    <node id="n110">
+      <data key="v_name">tld</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">26618</data>
+    </node>
+    <node id="n111">
+      <data key="v_name">tobi</data>
+      <data key="v_version">0.0.5</data>
+    </node>
+    <node id="n112">
+      <data key="v_name">torrent-search</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">2343</data>
+    </node>
+    <node id="n113">
+      <data key="v_name">tropo-webapi</data>
+      <data key="v_version">1.0.7</data>
+      <data key="v_size">6348</data>
+    </node>
+    <node id="n114">
+      <data key="v_name">twitter</data>
+      <data key="v_version">0.1.5</data>
+    </node>
+    <node id="n115">
+      <data key="v_name">useragent</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">89579</data>
+    </node>
+    <node id="n116">
+      <data key="v_name">uuid-pure</data>
+      <data key="v_version">1.0.2</data>
+      <data key="v_size">2492</data>
+    </node>
+    <node id="n117">
+      <data key="v_name">vows</data>
+      <data key="v_version">0.2.5</data>
+      <data key="v_size">12433</data>
+    </node>
+    <node id="n118">
+      <data key="v_name">watch_dir</data>
+      <data key="v_version">0.6.0</data>
+      <data key="v_size">2180</data>
+    </node>
+    <node id="n119">
+      <data key="v_name">xmlbuilder</data>
+      <data key="v_version">0.0.5</data>
+      <data key="v_size">2819</data>
+    </node>
+    <edge source="n8" target="n20">
+    </edge>
+    <edge source="n19" target="n2">
+    </edge>
+    <edge source="n21" target="n86">
+    </edge>
+    <edge source="n23" target="n94">
+    </edge>
+    <edge source="n23" target="n101">
+    </edge>
+    <edge source="n24" target="n18">
+    </edge>
+    <edge source="n29" target="n85">
+    </edge>
+    <edge source="n29" target="n97">
+    </edge>
+    <edge source="n33" target="n20">
+    </edge>
+    <edge source="n35" target="n33">
+    </edge>
+    <edge source="n35" target="n20">
+    </edge>
+    <edge source="n50" target="n47">
+    </edge>
+    <edge source="n59" target="n18">
+    </edge>
+    <edge source="n61" target="n100">
+    </edge>
+    <edge source="n61" target="n117">
+    </edge>
+    <edge source="n68" target="n76">
+    </edge>
+    <edge source="n71" target="n18">
+    </edge>
+    <edge source="n71" target="n34">
+    </edge>
+    <edge source="n87" target="n97">
+    </edge>
+    <edge source="n91" target="n11">
+    </edge>
+    <edge source="n102" target="n94">
+    </edge>
+    <edge source="n103" target="n2">
+    </edge>
+    <edge source="n116" target="n34">
+    </edge>
+  </graph>
+</graphml>

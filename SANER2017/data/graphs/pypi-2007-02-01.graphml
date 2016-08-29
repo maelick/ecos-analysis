@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">Pylons</data>
+      <data key="v_version">0.9.4.1</data>
+      <data key="v_size">216154</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">funkload</data>
+      <data key="v_version">1.5.0</data>
+      <data key="v_size">198903</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">Python-Amazon</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">799774</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">enum</data>
+      <data key="v_version">0.4.2</data>
+      <data key="v_size">18359</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Amara</data>
+      <data key="v_version">1.2.0.1</data>
+      <data key="v_size">112772</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">dap.plugins.sql</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">14261</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">rope</data>
+      <data key="v_version">0.2pre5</data>
+      <data key="v_size">62412</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">visionegg</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">1044865</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">lib_rharris</data>
+      <data key="v_version">0.1.14</data>
+      <data key="v_size">12895</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">tagger</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">28044</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">medusa</data>
+      <data key="v_version">0.5.4</data>
+      <data key="v_size">107744</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Myghty</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">320366</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">JsonUtils</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">19702</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">ZPTKit</data>
+      <data key="v_version">0.4.1</data>
+      <data key="v_size">64143</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">numpy</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">1892264</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">chimera</data>
+      <data key="v_version">0.4.6</data>
+      <data key="v_size">431842</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">ipython</data>
+      <data key="v_version">0.7.3</data>
+      <data key="v_size">1659352</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">Orchid</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">499</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">ots</data>
+      <data key="v_version">0.4.2.1</data>
+      <data key="v_size">568902</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">zc.buildoutsftp</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">24623</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">workspace</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">10074</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">mechanoid</data>
+      <data key="v_version">0.6.9</data>
+      <data key="v_size">125681</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">altgraph</data>
+      <data key="v_version">0.6.7</data>
+      <data key="v_size">42931</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">lazytools</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">5701</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">zc.recipe.filestorage</data>
+      <data key="v_version">1.0a5</data>
+      <data key="v_size">3076</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">epigrass</data>
+      <data key="v_version">1.4.7</data>
+      <data key="v_size">145550</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">MochiInterpreter</data>
+      <data key="v_version">1.3.1</data>
+      <data key="v_size">15785</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">webstring</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">144298</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">Importing</data>
+      <data key="v_version">1.9.2</data>
+      <data key="v_size">27967</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">tgquotes</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">88335</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">shrubbery</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">16152</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">hurry.file</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">18244</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">spoonrpc</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">107139</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">NonMockObjects</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">54143</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">zc.queue</data>
+      <data key="v_version">1.0.1</data>
+      <data key="v_size">18187</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">zope.ucol</data>
+      <data key="v_version">1.0.2</data>
+      <data key="v_size">15138</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">domainmodel</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">79099</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Buffet</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">4588</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">restclient</data>
+      <data key="v_version">0.9.5</data>
+      <data key="v_size">10019</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">svnchecker</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">24143</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">qtxmldom</data>
+      <data key="v_version">0.2.7</data>
+      <data key="v_size">23383</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">macholib</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">57829</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">xix-utils</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">68851</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">dap.plugins.hdf5</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">7748</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">gocept.zope3instance</data>
+      <data key="v_version">1.0b1</data>
+      <data key="v_size">20876</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">NetCube</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">55091</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">QuickWiki</data>
+      <data key="v_version">0.1.3</data>
+      <data key="v_size">50399</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">dap.plugins.matlab</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">12253</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">mtstat-mysql</data>
+      <data key="v_version">0.7.1</data>
+      <data key="v_size">7404</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">Magot</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">99302</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">TheMingBlogger</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">46888</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">pywfdb</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">112337</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">pudge</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">112791</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">simplejson</data>
+      <data key="v_version">1.5</data>
+      <data key="v_size">38285</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">FreeSpeak</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">37492</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">Pygments</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">777297</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">swiginac</data>
+      <data key="v_version">0.9.4</data>
+      <data key="v_size">42280</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">python-wifi</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">43512</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">TheMingWiki</data>
+      <data key="v_version">1.0-pre08</data>
+      <data key="v_size">28277</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">httpdrun</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">23280</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">pyprocps</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">10085</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">TGFKLookup</data>
+      <data key="v_version">0.1a0.dev-r534</data>
+      <data key="v_size">29301</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">kforge</data>
+      <data key="v_version">0.12</data>
+      <data key="v_size">250843</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">zope.testrecorder</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">22436</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">xml2ddl</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">253124</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">pypostbank</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">4084</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">shakespeare</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">54096</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">TracDatamoverPlugin</data>
+      <data key="v_version">1.1.1</data>
+      <data key="v_size">53960</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">QGL</data>
+      <data key="v_version">9</data>
+      <data key="v_size">52635</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">fpconst</data>
+      <data key="v_version">0.7.2</data>
+      <data key="v_size">3015</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">hardnote</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">768</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">Adytum-NetCIDR</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">8317</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">PyDAV</data>
+      <data key="v_version">0.21</data>
+      <data key="v_size">31014</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">PyAppleSMS</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">4408</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">tl.googlepagerank</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">8339</data>
+    </node>
+    <node id="n75">
+      <data key="v_name">wicked</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">140164</data>
+    </node>
+    <node id="n76">
+      <data key="v_name">mtrand</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">32275</data>
+    </node>
+    <node id="n77">
+      <data key="v_name">SpideyAgent</data>
+      <data key="v_version">0.75</data>
+      <data key="v_size">63845</data>
+    </node>
+    <node id="n78">
+      <data key="v_name">jwzthreading</data>
+      <data key="v_version">0.91</data>
+      <data key="v_size">5150</data>
+    </node>
+    <node id="n79">
+      <data key="v_name">phpserialize</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">1405</data>
+    </node>
+    <node id="n80">
+      <data key="v_name">ewa</data>
+      <data key="v_version">0.62</data>
+      <data key="v_size">66239</data>
+    </node>
+    <node id="n81">
+      <data key="v_name">pytils</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">172334</data>
+    </node>
+    <node id="n82">
+      <data key="v_name">Routes</data>
+      <data key="v_version">1.6.2</data>
+      <data key="v_size">37465</data>
+    </node>
+    <node id="n83">
+      <data key="v_name">webskine</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">24663</data>
+    </node>
+    <node id="n84">
+      <data key="v_name">pycscope</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">11943</data>
+    </node>
+    <node id="n85">
+      <data key="v_name">coards</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">9023</data>
+    </node>
+    <node id="n86">
+      <data key="v_name">easydeb</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">26416</data>
+    </node>
+    <node id="n87">
+      <data key="v_name">iso8601</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">5799</data>
+    </node>
+    <node id="n88">
+      <data key="v_name">fcgiapp</data>
+      <data key="v_version">1.4</data>
+      <data key="v_size">26114</data>
+    </node>
+    <node id="n89">
+      <data key="v_name">pyExcelerator</data>
+      <data key="v_version">0.5.3a</data>
+      <data key="v_size">179992</data>
+    </node>
+    <node id="n90">
+      <data key="v_name">OWSLib</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">29711</data>
+    </node>
+    <node id="n91">
+      <data key="v_name">LyricSearch</data>
+      <data key="v_version">0.2.0</data>
+      <data key="v_size">7455</data>
+    </node>
+    <node id="n92">
+      <data key="v_name">pytz</data>
+      <data key="v_version">2006p</data>
+      <data key="v_size">995825</data>
+    </node>
+    <node id="n93">
+      <data key="v_name">pyenchant</data>
+      <data key="v_version">1.3.0</data>
+      <data key="v_size">2637447</data>
+    </node>
+    <node id="n94">
+      <data key="v_name">sprinkles</data>
+      <data key="v_version">0.4.6</data>
+      <data key="v_size">9284</data>
+    </node>
+    <node id="n95">
+      <data key="v_name">PlugBoard</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">33152</data>
+    </node>
+    <node id="n96">
+      <data key="v_name">directio</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">11045</data>
+    </node>
+    <node id="n97">
+      <data key="v_name">dublincore</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">3441</data>
+    </node>
+    <node id="n98">
+      <data key="v_name">simple_json</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">23036</data>
+    </node>
+    <node id="n99">
+      <data key="v_name">TurboMail</data>
+      <data key="v_version">2.0.3</data>
+      <data key="v_size">34833</data>
+    </node>
+    <node id="n100">
+      <data key="v_name">zc.table</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">55259</data>
+    </node>
+    <node id="n101">
+      <data key="v_name">splicetee</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">11111</data>
+    </node>
+    <node id="n102">
+      <data key="v_name">bundleman</data>
+      <data key="v_version">1.1.0</data>
+      <data key="v_size">34728</data>
+    </node>
+    <node id="n103">
+      <data key="v_name">petsc4py</data>
+      <data key="v_version">0.7.2</data>
+      <data key="v_size">453202</data>
+    </node>
+    <node id="n104">
+      <data key="v_name">pyclearsilver</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">103969</data>
+    </node>
+    <node id="n105">
+      <data key="v_name">mpi4py</data>
+      <data key="v_version">0.4.0rc3</data>
+      <data key="v_size">179513</data>
+    </node>
+    <node id="n106">
+      <data key="v_name">TracFilenameSearch</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">6262</data>
+    </node>
+    <node id="n107">
+      <data key="v_name">FormEncode</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">699708</data>
+    </node>
+    <node id="n108">
+      <data key="v_name">jonpy</data>
+      <data key="v_version">0.06</data>
+      <data key="v_size">49022</data>
+    </node>
+    <node id="n109">
+      <data key="v_name">zc.vault</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">154301</data>
+    </node>
+    <node id="n110">
+      <data key="v_name">PyGreSQL</data>
+      <data key="v_version">3.8.1</data>
+      <data key="v_size">81186</data>
+    </node>
+    <node id="n111">
+      <data key="v_name">ll-toxic</data>
+      <data key="v_version">0.9.1</data>
+      <data key="v_size">33393</data>
+    </node>
+    <node id="n112">
+      <data key="v_name">ProxyTypes</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">27883</data>
+    </node>
+    <node id="n113">
+      <data key="v_name">CBlog</data>
+      <data key="v_version">0.1a</data>
+      <data key="v_size">304096</data>
+    </node>
+    <node id="n114">
+      <data key="v_name">TracCaseInsensitiveWiki</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">4821</data>
+    </node>
+    <node id="n115">
+      <data key="v_name">PasteScript</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">178186</data>
+    </node>
+    <node id="n116">
+      <data key="v_name">pyipc</data>
+      <data key="v_version">0.41</data>
+      <data key="v_size">4698</data>
+    </node>
+    <node id="n117">
+      <data key="v_name">userschema</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">16826</data>
+    </node>
+    <node id="n118">
+      <data key="v_name">nattraverso</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">72138</data>
+    </node>
+    <node id="n119">
+      <data key="v_name">ll-core</data>
+      <data key="v_version">1.7.1</data>
+      <data key="v_size">2609357</data>
+    </node>
+    <node id="n120">
+      <data key="v_name">eagle-maemo</data>
+      <data key="v_version">0.7</data>
+      <data key="v_size">702837</data>
+    </node>
+    <node id="n121">
+      <data key="v_name">zc.recipe.cmmi</data>
+      <data key="v_version">1.0.1</data>
+      <data key="v_size">4151</data>
+    </node>
+    <node id="n122">
+      <data key="v_name">arrayterator</data>
+      <data key="v_version">0.2.7</data>
+      <data key="v_size">6713</data>
+    </node>
+    <node id="n123">
+      <data key="v_name">Freetype</data>
+      <data key="v_version">Milestone1</data>
+      <data key="v_size">240408</data>
+    </node>
+    <node id="n124">
+      <data key="v_name">libevent-python</data>
+      <data key="v_version">0.1a8</data>
+      <data key="v_size">13458</data>
+    </node>
+    <node id="n125">
+      <data key="v_name">zc.catalog</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">51204</data>
+    </node>
+    <node id="n126">
+      <data key="v_name">Durus</data>
+      <data key="v_version">3.1</data>
+      <data key="v_size">43196</data>
+    </node>
+    <node id="n127">
+      <data key="v_name">Extractor</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">11023</data>
+    </node>
+    <node id="n128">
+      <data key="v_name">crablfs</data>
+      <data key="v_version">0.1.1beta</data>
+      <data key="v_size">41775</data>
+    </node>
+    <node id="n129">
+      <data key="v_name">TracHTTPAuth</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">8786</data>
+    </node>
+    <node id="n130">
+      <data key="v_name">simpleQL</data>
+      <data key="v_version">0.1.2.2</data>
+      <data key="v_size">12946</data>
+    </node>
+    <node id="n131">
+      <data key="v_name">TracCombineWiki</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">16047</data>
+    </node>
+    <node id="n132">
+      <data key="v_name">Colubrid</data>
+      <data key="v_version">0.10</data>
+      <data key="v_size">176400</data>
+    </node>
+    <node id="n133">
+      <data key="v_name">dap.responses.json</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">5358</data>
+    </node>
+    <node id="n134">
+      <data key="v_name">registration</data>
+      <data key="v_version">0.2a</data>
+      <data key="v_size">26339</data>
+    </node>
+    <node id="n135">
+      <data key="v_name">zc.copy</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">16625</data>
+    </node>
+    <node id="n136">
+      <data key="v_name">Anagrammer</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">28013</data>
+    </node>
+    <node id="n137">
+      <data key="v_name">memento</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">5777</data>
+    </node>
+    <node id="n138">
+      <data key="v_name">testoob</data>
+      <data key="v_version">1.13</data>
+      <data key="v_size">776573</data>
+    </node>
+    <node id="n139">
+      <data key="v_name">qpy</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">17429</data>
+    </node>
+    <node id="n140">
+      <data key="v_name">remote-microscope</data>
+      <data key="v_version">2.0a3</data>
+      <data key="v_size">105878</data>
+    </node>
+    <node id="n141">
+      <data key="v_name">ArcRstats</data>
+      <data key="v_version">0.8.alpha</data>
+      <data key="v_size">584622</data>
+    </node>
+    <node id="n142">
+      <data key="v_name">readline</data>
+      <data key="v_version">2.4.2</data>
+      <data key="v_size">176257</data>
+    </node>
+    <node id="n143">
+      <data key="v_name">Lavengro</data>
+      <data key="v_version">1.2.7</data>
+      <data key="v_size">17246</data>
+    </node>
+    <node id="n144">
+      <data key="v_name">Adytum-PyMonitor</data>
+      <data key="v_version">1.0.5</data>
+      <data key="v_size">55934</data>
+    </node>
+    <node id="n145">
+      <data key="v_name">FibraNet</data>
+      <data key="v_version">10</data>
+      <data key="v_size">15978</data>
+    </node>
+    <node id="n146">
+      <data key="v_name">BytecodeAssembler</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">63084</data>
+    </node>
+    <node id="n147">
+      <data key="v_name">TracFakeUsername</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">60777</data>
+    </node>
+    <node id="n148">
+      <data key="v_name">TGFirebugLite</data>
+      <data key="v_version">1.0b</data>
+      <data key="v_size">14556</data>
+    </node>
+    <node id="n149">
+      <data key="v_name">wsgiserialize</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">13252</data>
+    </node>
+    <node id="n150">
+      <data key="v_name">emi-ucp</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">13560</data>
+    </node>
+    <node id="n151">
+      <data key="v_name">minixsv</data>
+      <data key="v_version">0.7</data>
+      <data key="v_size">113864</data>
+    </node>
+    <node id="n152">
+      <data key="v_name">jsDOMenu</data>
+      <data key="v_version">0.1a0.dev-r477</data>
+      <data key="v_size">61043</data>
+    </node>
+    <node id="n153">
+      <data key="v_name">five.intid</data>
+      <data key="v_version">0.1.4</data>
+      <data key="v_size">23529</data>
+    </node>
+    <node id="n154">
+      <data key="v_name">bruce</data>
+      <data key="v_version">1.2.1</data>
+      <data key="v_size">139297</data>
+    </node>
+    <node id="n155">
+      <data key="v_name">zope.paste</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">3955</data>
+    </node>
+    <node id="n156">
+      <data key="v_name">python-cjson</data>
+      <data key="v_version">1.0.3</data>
+      <data key="v_size">10714</data>
+    </node>
+    <node id="n157">
+      <data key="v_name">wsgiauth</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">35578</data>
+    </node>
+    <node id="n158">
+      <data key="v_name">OpenPGP</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">254434</data>
+    </node>
+    <node id="n159">
+      <data key="v_name">zpkg</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">326122</data>
+    </node>
+    <node id="n160">
+      <data key="v_name">USPP-Universal-Serial-Port-Python-Library</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">28649</data>
+    </node>
+    <node id="n161">
+      <data key="v_name">pywilima</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">4276</data>
+    </node>
+    <node id="n162">
+      <data key="v_name">raze</data>
+      <data key="v_version">1.2.0</data>
+      <data key="v_size">24640</data>
+    </node>
+    <node id="n163">
+      <data key="v_name">dap.responses.html</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">29616</data>
+    </node>
+    <node id="n164">
+      <data key="v_name">chardet</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">153118</data>
+    </node>
+    <node id="n165">
+      <data key="v_name">Sancho</data>
+      <data key="v_version">0.11</data>
+      <data key="v_size">21577</data>
+    </node>
+    <node id="n166">
+      <data key="v_name">ZestyParser</data>
+      <data key="v_version">0.6.0</data>
+      <data key="v_size">66891</data>
+    </node>
+    <node id="n167">
+      <data key="v_name">EggsHelper</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">2567</data>
+    </node>
+    <node id="n168">
+      <data key="v_name">plush</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">9899</data>
+    </node>
+    <node id="n169">
+      <data key="v_name">pyxsd</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">74444</data>
+    </node>
+    <node id="n170">
+      <data key="v_name">puzzler</data>
+      <data key="v_version">1</data>
+      <data key="v_size">104732</data>
+    </node>
+    <node id="n171">
+      <data key="v_name">geopy</data>
+      <data key="v_version">0.93</data>
+      <data key="v_size">43108</data>
+    </node>
+    <node id="n172">
+      <data key="v_name">4Suite-XML</data>
+      <data key="v_version">1.0.2</data>
+      <data key="v_size">1286713</data>
+    </node>
+    <node id="n173">
+      <data key="v_name">Oort</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">58309</data>
+    </node>
+    <node id="n174">
+      <data key="v_name">polib</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">21117</data>
+    </node>
+    <node id="n175">
+      <data key="v_name">halberd</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">127269</data>
+    </node>
+    <node id="n176">
+      <data key="v_name">desktop</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">14192</data>
+    </node>
+    <node id="n177">
+      <data key="v_name">sqlcc</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">3549</data>
+    </node>
+    <node id="n178">
+      <data key="v_name">zc.shortcut</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">55176</data>
+    </node>
+    <node id="n179">
+      <data key="v_name">mysql-pyrex</data>
+      <data key="v_version">0.9.0a1</data>
+      <data key="v_size">608036</data>
+    </node>
+    <node id="n180">
+      <data key="v_name">MultiComplete</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">18841</data>
+    </node>
+    <node id="n181">
+      <data key="v_name">fdfgen</data>
+      <data key="v_version">0.9.1</data>
+      <data key="v_size">4280</data>
+    </node>
+    <node id="n182">
+      <data key="v_name">ez_xml</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">3548</data>
+    </node>
+    <node id="n183">
+      <data key="v_name">mwparser</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">3596</data>
+    </node>
+    <node id="n184">
+      <data key="v_name">BuffetMyghty</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">3473</data>
+    </node>
+    <node id="n185">
+      <data key="v_name">modulegraph</data>
+      <data key="v_version">0.7</data>
+      <data key="v_size">27596</data>
+    </node>
+    <node id="n186">
+      <data key="v_name">TracSelfDelete</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">8281</data>
+    </node>
+    <node id="n187">
+      <data key="v_name">SE</data>
+      <data key="v_version">2.3</data>
+      <data key="v_size">71108</data>
+    </node>
+    <node id="n188">
+      <data key="v_name">httrack-py</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">20066</data>
+    </node>
+    <node id="n189">
+      <data key="v_name">CherryPy</data>
+      <data key="v_version">2.2.0beta</data>
+      <data key="v_size">190251</data>
+    </node>
+    <node id="n190">
+      <data key="v_name">PyFIT</data>
+      <data key="v_version">0.8a2</data>
+      <data key="v_size">985925</data>
+    </node>
+    <node id="n191">
+      <data key="v_name">wsgiview</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">4793</data>
+    </node>
+    <node id="n192">
+      <data key="v_name">simpleweb</data>
+      <data key="v_version">0.7.3</data>
+      <data key="v_size">92293</data>
+    </node>
+    <node id="n193">
+      <data key="v_name">PlotKit</data>
+      <data key="v_version">0.9.1w2</data>
+      <data key="v_size">54806</data>
+    </node>
+    <node id="n194">
+      <data key="v_name">PyWebDAV</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">34919</data>
+    </node>
+    <node id="n195">
+      <data key="v_name">wsgiref</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">113063</data>
+    </node>
+    <node id="n196">
+      <data key="v_name">Salamoia</data>
+      <data key="v_version">1.1.5.dev-r1304</data>
+      <data key="v_size">423992</data>
+    </node>
+    <node id="n197">
+      <data key="v_name">zflow</data>
+      <data key="v_version">0.01</data>
+      <data key="v_size">23196</data>
+    </node>
+    <node id="n198">
+      <data key="v_name">ownet</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">7631</data>
+    </node>
+    <node id="n199">
+      <data key="v_name">zope.testing</data>
+      <data key="v_version">3.0</data>
+      <data key="v_size">1084504</data>
+    </node>
+    <node id="n200">
+      <data key="v_name">pyndexter</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">39618</data>
+    </node>
+    <node id="n201">
+      <data key="v_name">dap</data>
+      <data key="v_version">2.2.5.7</data>
+      <data key="v_size">120600</data>
+    </node>
+    <node id="n202">
+      <data key="v_name">pyFTN</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">9033</data>
+    </node>
+    <node id="n203">
+      <data key="v_name">workspace.plugins.gvim</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">1888</data>
+    </node>
+    <node id="n204">
+      <data key="v_name">mglob</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">5896</data>
+    </node>
+    <node id="n205">
+      <data key="v_name">DisplayShelf</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">189418</data>
+    </node>
+    <node id="n206">
+      <data key="v_name">TurboKid</data>
+      <data key="v_version">0.9.9</data>
+      <data key="v_size">18402</data>
+    </node>
+    <node id="n207">
+      <data key="v_name">roundup</data>
+      <data key="v_version">1.3.2</data>
+      <data key="v_size">1320339</data>
+    </node>
+    <node id="n208">
+      <data key="v_name">affinity</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">13305</data>
+    </node>
+    <node id="n209">
+      <data key="v_name">ruby2shoes</data>
+      <data key="v_version">1.0.7</data>
+      <data key="v_size">49935</data>
+    </node>
+    <node id="n210">
+      <data key="v_name">svnrepo</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">4910</data>
+    </node>
+    <node id="n211">
+      <data key="v_name">boto</data>
+      <data key="v_version">0.8a</data>
+      <data key="v_size">20600</data>
+    </node>
+    <node id="n212">
+      <data key="v_name">wsgigzip</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">10744</data>
+    </node>
+    <node id="n213">
+      <data key="v_name">zc.recipe.egg</data>
+      <data key="v_version">1.0.0b4</data>
+      <data key="v_size">103103</data>
+    </node>
+    <node id="n214">
+      <data key="v_name">wc.worldcookeryskin</data>
+      <data key="v_version">2.0</data>
+      <data key="v_size">90014</data>
+    </node>
+    <node id="n215">
+      <data key="v_name">pycoon</data>
+      <data key="v_version">0.2a4</data>
+      <data key="v_size">85445</data>
+    </node>
+    <node id="n216">
+      <data key="v_name">TracCtxtnavAdd</data>
+      <data key="v_version">1.1-r1</data>
+      <data key="v_size">2806</data>
+    </node>
+    <node id="n217">
+      <data key="v_name">daversy</data>
+      <data key="v_version">0.1.0.dev-r330</data>
+      <data key="v_size">28458</data>
+    </node>
+    <node id="n218">
+      <data key="v_name">setuptools</data>
+      <data key="v_version">0.6c5</data>
+      <data key="v_size">256945</data>
+    </node>
+    <node id="n219">
+      <data key="v_name">oodoctest</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">31856</data>
+    </node>
+    <node id="n220">
+      <data key="v_name">tg2exe</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">27509</data>
+    </node>
+    <node id="n221">
+      <data key="v_name">pupynere</data>
+      <data key="v_version">0.2.4</data>
+      <data key="v_size">7562</data>
+    </node>
+    <node id="n222">
+      <data key="v_name">slow</data>
+      <data key="v_version">0.3.3</data>
+      <data key="v_size">405724</data>
+    </node>
+    <node id="n223">
+      <data key="v_name">pyepoll</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">2336</data>
+    </node>
+    <node id="n224">
+      <data key="v_name">Aglyph</data>
+      <data key="v_version">0.8</data>
+      <data key="v_size">59028</data>
+    </node>
+    <node id="n225">
+      <data key="v_name">MuleHashDB</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">10104</data>
+    </node>
+    <node id="n226">
+      <data key="v_name">rhizome</data>
+      <data key="v_version">0.2.4</data>
+      <data key="v_size">13800</data>
+    </node>
+    <node id="n227">
+      <data key="v_name">rwpopen</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">3072</data>
+    </node>
+    <node id="n228">
+      <data key="v_name">ore.svn</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">30142</data>
+    </node>
+    <node id="n229">
+      <data key="v_name">analysis</data>
+      <data key="v_version">0.1.7</data>
+      <data key="v_size">186415</data>
+    </node>
+    <node id="n230">
+      <data key="v_name">kid</data>
+      <data key="v_version">0.9.5</data>
+      <data key="v_size">722786</data>
+    </node>
+    <node id="n231">
+      <data key="v_name">sAsync</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">82310</data>
+    </node>
+    <node id="n232">
+      <data key="v_name">ll-xist</data>
+      <data key="v_version">2.15.2</data>
+      <data key="v_size">288589</data>
+    </node>
+    <node id="n233">
+      <data key="v_name">pytnef</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">3712</data>
+    </node>
+    <node id="n234">
+      <data key="v_name">tgmigrate</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">6424</data>
+    </node>
+    <node id="n235">
+      <data key="v_name">mtstat</data>
+      <data key="v_version">0.7.1</data>
+      <data key="v_size">65543</data>
+    </node>
+    <node id="n236">
+      <data key="v_name">SQLObject</data>
+      <data key="v_version">0.7.3</data>
+      <data key="v_size">251234</data>
+    </node>
+    <node id="n237">
+      <data key="v_name">TracWikiNotification</data>
+      <data key="v_version">0.1.0rc4</data>
+      <data key="v_size">18712</data>
+    </node>
+    <node id="n238">
+      <data key="v_name">pydirstat</data>
+      <data key="v_version">0.9.15</data>
+      <data key="v_size">248888</data>
+    </node>
+    <node id="n239">
+      <data key="v_name">Migration</data>
+      <data key="v_version">0.2a4.dev-r413</data>
+      <data key="v_size">21253</data>
+    </node>
+    <node id="n240">
+      <data key="v_name">wxOptParse</data>
+      <data key="v_version">0.1.6</data>
+      <data key="v_size">21556</data>
+    </node>
+    <node id="n241">
+      <data key="v_name">pyhjb</data>
+      <data key="v_version">0.5.1</data>
+      <data key="v_size">78998</data>
+    </node>
+    <node id="n242">
+      <data key="v_name">XSLTools</data>
+      <data key="v_version">0.4.3</data>
+      <data key="v_size">254194</data>
+    </node>
+    <node id="n243">
+      <data key="v_name">fluid</data>
+      <data key="v_version">0.1.7</data>
+      <data key="v_size">85383</data>
+    </node>
+    <node id="n244">
+      <data key="v_name">yaxl</data>
+      <data key="v_version">0.0.17</data>
+      <data key="v_size">40303</data>
+    </node>
+    <node id="n245">
+      <data key="v_name">ldapadapter</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">35659</data>
+    </node>
+    <node id="n246">
+      <data key="v_name">InPlace</data>
+      <data key="v_version">0.1a0.dev-r477</data>
+      <data key="v_size">16489</data>
+    </node>
+    <node id="n247">
+      <data key="v_name">FelloWiki</data>
+      <data key="v_version">0.01a1.dev-r36</data>
+      <data key="v_size">174727</data>
+    </node>
+    <node id="n248">
+      <data key="v_name">email</data>
+      <data key="v_version">4.0.1</data>
+      <data key="v_size">1205824</data>
+    </node>
+    <node id="n249">
+      <data key="v_name">t616hack</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">25345</data>
+    </node>
+    <node id="n250">
+      <data key="v_name">subzilla</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">11210</data>
+    </node>
+    <node id="n251">
+      <data key="v_name">zc.recipe.icu</data>
+      <data key="v_version">1.0.0b1</data>
+      <data key="v_size">2330</data>
+    </node>
+    <node id="n252">
+      <data key="v_name">zope.bforest</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">13294</data>
+    </node>
+    <node id="n253">
+      <data key="v_name">wsgiform</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">33060</data>
+    </node>
+    <node id="n254">
+      <data key="v_name">lxml</data>
+      <data key="v_version">1.1.2</data>
+      <data key="v_size">266568</data>
+    </node>
+    <node id="n255">
+      <data key="v_name">SymbolType</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">7850</data>
+    </node>
+    <node id="n256">
+      <data key="v_name">dap.plugins.grads</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">6947</data>
+    </node>
+    <node id="n257">
+      <data key="v_name">WFront</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">9851</data>
+    </node>
+    <node id="n258">
+      <data key="v_name">Beaker</data>
+      <data key="v_version">0.6.2</data>
+      <data key="v_size">12192</data>
+    </node>
+    <node id="n259">
+      <data key="v_name">RhubarbTart</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">19117</data>
+    </node>
+    <node id="n260">
+      <data key="v_name">clee</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">4614</data>
+    </node>
+    <node id="n261">
+      <data key="v_name">vobject</data>
+      <data key="v_version">0.4.7</data>
+      <data key="v_size">92846</data>
+    </node>
+    <node id="n262">
+      <data key="v_name">zc.recipe.testrunner</data>
+      <data key="v_version">1.0.0b5</data>
+      <data key="v_size">34365</data>
+    </node>
+    <node id="n263">
+      <data key="v_name">ZSI</data>
+      <data key="v_version">2.0-rc3</data>
+      <data key="v_size">1061161</data>
+    </node>
+    <node id="n264">
+      <data key="v_name">simplegeneric</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">7566</data>
+    </node>
+    <node id="n265">
+      <data key="v_name">matplotlib</data>
+      <data key="v_version">0.86.2</data>
+      <data key="v_size">2623852</data>
+    </node>
+    <node id="n266">
+      <data key="v_name">pushpage</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">14364</data>
+    </node>
+    <node id="n267">
+      <data key="v_name">Paste</data>
+      <data key="v_version">1.2.1</data>
+      <data key="v_size">721314</data>
+    </node>
+    <node id="n268">
+      <data key="v_name">sqltriples</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">151122</data>
+    </node>
+    <node id="n269">
+      <data key="v_name">netCDF4</data>
+      <data key="v_version">0.6.1</data>
+      <data key="v_size">206688</data>
+    </node>
+    <node id="n270">
+      <data key="v_name">PasteWebKit</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">174880</data>
+    </node>
+    <node id="n271">
+      <data key="v_name">DecoratorTools</data>
+      <data key="v_version">1.2</data>
+      <data key="v_size">29681</data>
+    </node>
+    <node id="n272">
+      <data key="v_name">PyDO</data>
+      <data key="v_version">2.0</data>
+      <data key="v_size">93495</data>
+    </node>
+    <node id="n273">
+      <data key="v_name">dap.plugins.netcdf</data>
+      <data key="v_version">0.3.3</data>
+      <data key="v_size">7457</data>
+    </node>
+    <node id="n274">
+      <data key="v_name">skel</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">9614</data>
+    </node>
+    <node id="n275">
+      <data key="v_name">INITools</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">38245</data>
+    </node>
+    <node id="n276">
+      <data key="v_name">dbstore</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">13851</data>
+    </node>
+    <node id="n277">
+      <data key="v_name">BrightContent</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">82202</data>
+    </node>
+    <node id="n278">
+      <data key="v_name">dap.responses.wms</data>
+      <data key="v_version">0.3.3</data>
+      <data key="v_size">41078</data>
+    </node>
+    <node id="n279">
+      <data key="v_name">zc.relationship</data>
+      <data key="v_version">1.0.1</data>
+      <data key="v_size">78800</data>
+    </node>
+    <node id="n280">
+      <data key="v_name">PythonEggTools</data>
+      <data key="v_version">1.0a0</data>
+      <data key="v_size">12384</data>
+    </node>
+    <node id="n281">
+      <data key="v_name">bdist_mpkg</data>
+      <data key="v_version">0.4.2</data>
+      <data key="v_size">32940</data>
+    </node>
+    <node id="n282">
+      <data key="v_name">functional</data>
+      <data key="v_version">0.7.0</data>
+      <data key="v_size">30800</data>
+    </node>
+    <node id="n283">
+      <data key="v_name">empywiz</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">91196</data>
+    </node>
+    <node id="n284">
+      <data key="v_name">argparse</data>
+      <data key="v_version">0.5.0</data>
+      <data key="v_size">76856</data>
+    </node>
+    <node id="n285">
+      <data key="v_name">TurboEntity</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">16596</data>
+    </node>
+    <node id="n286">
+      <data key="v_name">UPCTools</data>
+      <data key="v_version">0.1a1</data>
+      <data key="v_size">10403</data>
+    </node>
+    <node id="n287">
+      <data key="v_name">Rat</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">56877</data>
+    </node>
+    <node id="n288">
+      <data key="v_name">SimpleExampleEgg</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">13691</data>
+    </node>
+    <node id="n289">
+      <data key="v_name">instancemanager</data>
+      <data key="v_version">1.0rc-r34317</data>
+      <data key="v_size">48885</data>
+    </node>
+    <node id="n290">
+      <data key="v_name">rdfadict</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">7681</data>
+    </node>
+    <node id="n291">
+      <data key="v_name">TracLineDiffMacro</data>
+      <data key="v_version">0.1-r1</data>
+      <data key="v_size">1440</data>
+    </node>
+    <node id="n292">
+      <data key="v_name">WebStack</data>
+      <data key="v_version">1.2.1</data>
+      <data key="v_size">215837</data>
+    </node>
+    <node id="n293">
+      <data key="v_name">zc.freeze</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">18528</data>
+    </node>
+    <node id="n294">
+      <data key="v_name">Wareweb</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">50493</data>
+    </node>
+    <node id="n295">
+      <data key="v_name">FormBuild</data>
+      <data key="v_version">0.1.6b</data>
+      <data key="v_size">99515</data>
+    </node>
+    <node id="n296">
+      <data key="v_name">TracPrivateTickets</data>
+      <data key="v_version">1.0.1</data>
+      <data key="v_size">24125</data>
+    </node>
+    <node id="n297">
+      <data key="v_name">py2app</data>
+      <data key="v_version">0.3.5</data>
+      <data key="v_size">155372</data>
+    </node>
+    <node id="n298">
+      <data key="v_name">pythondialog</data>
+      <data key="v_version">2.7</data>
+      <data key="v_size">29051</data>
+    </node>
+    <node id="n299">
+      <data key="v_name">PyCAPTCHA</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">1038985</data>
+    </node>
+    <node id="n300">
+      <data key="v_name">BuffetXSLT</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">3321</data>
+    </node>
+    <node id="n301">
+      <data key="v_name">hatom2atom</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">13136</data>
+    </node>
+    <node id="n302">
+      <data key="v_name">engal</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">86321</data>
+    </node>
+    <node id="n303">
+      <data key="v_name">TurboJinja</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">5453</data>
+    </node>
+    <node id="n304">
+      <data key="v_name">thredds</data>
+      <data key="v_version">0.1.5</data>
+      <data key="v_size">26302</data>
+    </node>
+    <node id="n305">
+      <data key="v_name">Twisted-Goodies</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">59474</data>
+    </node>
+    <node id="n306">
+      <data key="v_name">Cheesecake</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">336232</data>
+    </node>
+    <node id="n307">
+      <data key="v_name">wsgiakismet</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">11014</data>
+    </node>
+    <node id="n308">
+      <data key="v_name">hurry.workflow</data>
+      <data key="v_version">0.9.1</data>
+      <data key="v_size">22466</data>
+    </node>
+    <node id="n309">
+      <data key="v_name">apachelog</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">5121</data>
+    </node>
+    <node id="n310">
+      <data key="v_name">pygpgme</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">44315</data>
+    </node>
+    <node id="n311">
+      <data key="v_name">TurboHtmlPy</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">17846</data>
+    </node>
+    <node id="n312">
+      <data key="v_name">net6mon</data>
+      <data key="v_version">0.0.1.dev-r737</data>
+      <data key="v_size">84664</data>
+    </node>
+    <node id="n313">
+      <data key="v_name">Dulcinea</data>
+      <data key="v_version">0.11</data>
+      <data key="v_size">182501</data>
+    </node>
+    <node id="n314">
+      <data key="v_name">TGPaginate</data>
+      <data key="v_version">0.1a0.dev-r560</data>
+      <data key="v_size">20177</data>
+    </node>
+    <node id="n315">
+      <data key="v_name">pyfo</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">5502</data>
+    </node>
+    <node id="n316">
+      <data key="v_name">TracIncludeMacro</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">9199</data>
+    </node>
+    <node id="n317">
+      <data key="v_name">surely</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">2142</data>
+    </node>
+    <node id="n318">
+      <data key="v_name">huBarcode</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">1184402</data>
+    </node>
+    <node id="n319">
+      <data key="v_name">jsonstore</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">6406</data>
+    </node>
+    <node id="n320">
+      <data key="v_name">zc.recipe.zope3instance</data>
+      <data key="v_version">1.0.0a1</data>
+      <data key="v_size">7355</data>
+    </node>
+    <node id="n321">
+      <data key="v_name">wxdebug</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">19269</data>
+    </node>
+    <node id="n322">
+      <data key="v_name">wc.textpage</data>
+      <data key="v_version">2.0</data>
+      <data key="v_size">13128</data>
+    </node>
+    <node id="n323">
+      <data key="v_name">Cheetah</data>
+      <data key="v_version">2.0rc7</data>
+      <data key="v_size">212057</data>
+    </node>
+    <node id="n324">
+      <data key="v_name">python-pgsql</data>
+      <data key="v_version">0.9.3</data>
+      <data key="v_size">29621</data>
+    </node>
+    <node id="n325">
+      <data key="v_name">Detextile</data>
+      <data key="v_version">0.0.3</data>
+      <data key="v_size">15845</data>
+    </node>
+    <node id="n326">
+      <data key="v_name">zc.buildout</data>
+      <data key="v_version">1.0.0b19</data>
+      <data key="v_size">448248</data>
+    </node>
+    <node id="n327">
+      <data key="v_name">snap</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">24387</data>
+    </node>
+    <node id="n328">
+      <data key="v_name">treemap</data>
+      <data key="v_version">1.05</data>
+      <data key="v_size">5365</data>
+    </node>
+    <node id="n329">
+      <data key="v_name">spark</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">41044</data>
+    </node>
+    <node id="n330">
+      <data key="v_name">pyoai</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">38677</data>
+    </node>
+    <node id="n331">
+      <data key="v_name">geolocator</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">26728</data>
+    </node>
+    <node id="n332">
+      <data key="v_name">trace2html</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">15144</data>
+    </node>
+    <node id="n333">
+      <data key="v_name">easier_install</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">4405</data>
+    </node>
+    <node id="n334">
+      <data key="v_name">TracNavHider</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">5528</data>
+    </node>
+    <node id="n335">
+      <data key="v_name">deep</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">17186</data>
+    </node>
+    <node id="n336">
+      <data key="v_name">pyWebSMS</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">16753</data>
+    </node>
+    <node id="n337">
+      <data key="v_name">TracSiteWikiDefault</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">6815</data>
+    </node>
+    <node id="n338">
+      <data key="v_name">Pocoo</data>
+      <data key="v_version">0.1.5</data>
+      <data key="v_size">1491524</data>
+    </node>
+    <node id="n339">
+      <data key="v_name">pickleshare</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">25599</data>
+    </node>
+    <node id="n340">
+      <data key="v_name">clipartbrowser</data>
+      <data key="v_version">0.5a1</data>
+      <data key="v_size">22095</data>
+    </node>
+    <node id="n341">
+      <data key="v_name">rlcompleter2</data>
+      <data key="v_version">0.96</data>
+      <data key="v_size">10965</data>
+    </node>
+    <node id="n342">
+      <data key="v_name">buildout_script</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">7679</data>
+    </node>
+    <node id="n343">
+      <data key="v_name">Model-Builder</data>
+      <data key="v_version">0.3.5</data>
+      <data key="v_size">284729</data>
+    </node>
+    <node id="n344">
+      <data key="v_name">pytaskplan</data>
+      <data key="v_version">1.3.3</data>
+      <data key="v_size">10300</data>
+    </node>
+    <node id="n345">
+      <data key="v_name">BitBucket</data>
+      <data key="v_version">0.4a</data>
+      <data key="v_size">21121</data>
+    </node>
+    <node id="n346">
+      <data key="v_name">SQLAlchemy</data>
+      <data key="v_version">0.3.4</data>
+      <data key="v_size">769753</data>
+    </node>
+    <node id="n347">
+      <data key="v_name">eagle-gtk</data>
+      <data key="v_version">0.7</data>
+      <data key="v_size">702833</data>
+    </node>
+    <node id="n348">
+      <data key="v_name">consensus</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">7046</data>
+    </node>
+    <node id="n349">
+      <data key="v_name">selector</data>
+      <data key="v_version">0.8.11</data>
+      <data key="v_size">14550</data>
+    </node>
+    <node id="n350">
+      <data key="v_name">pynakotheka</data>
+      <data key="v_version">1.0.2</data>
+      <data key="v_size">100409</data>
+    </node>
+    <node id="n351">
+      <data key="v_name">cclib</data>
+      <data key="v_version">0.6.1</data>
+      <data key="v_size">104474</data>
+    </node>
+    <node id="n352">
+      <data key="v_name">Mako</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">175485</data>
+    </node>
+    <node id="n353">
+      <data key="v_name">fullChart</data>
+      <data key="v_version">0.1.a</data>
+      <data key="v_size">52569</data>
+    </node>
+    <node id="n354">
+      <data key="v_name">Louie</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">40111</data>
+    </node>
+    <node id="n355">
+      <data key="v_name">MyghtyUtils</data>
+      <data key="v_version">0.52</data>
+      <data key="v_size">31038</data>
+    </node>
+    <node id="n356">
+      <data key="v_name">pygenx</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">33694</data>
+    </node>
+    <node id="n357">
+      <data key="v_name">functools</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">4913</data>
+    </node>
+    <node id="n358">
+      <data key="v_name">iplib</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">20631</data>
+    </node>
+    <node id="n359">
+      <data key="v_name">TracHierWiki</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">29439</data>
+    </node>
+    <node id="n360">
+      <data key="v_name">SimpleRDFServer</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">3095</data>
+    </node>
+    <node id="n361">
+      <data key="v_name">pylzma</data>
+      <data key="v_version">0.3.0</data>
+      <data key="v_size">172359</data>
+    </node>
+    <node id="n362">
+      <data key="v_name">PyRRD</data>
+      <data key="v_version">0.0.1</data>
+      <data key="v_size">36470</data>
+    </node>
+    <node id="n363">
+      <data key="v_name">ll-orasql</data>
+      <data key="v_version">1.14</data>
+      <data key="v_size">52791</data>
+    </node>
+    <node id="n364">
+      <data key="v_name">TestGen4Web-Python</data>
+      <data key="v_version">0.2.1</data>
+      <data key="v_size">16294</data>
+    </node>
+    <node id="n365">
+      <data key="v_name">hexagonit.form</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">8949</data>
+    </node>
+    <node id="n366">
+      <data key="v_name">barrel</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">19432</data>
+    </node>
+    <node id="n367">
+      <data key="v_name">ConfigAdministrator</data>
+      <data key="v_version">0.1a0.dev-r352</data>
+      <data key="v_size">18086</data>
+    </node>
+    <node id="n368">
+      <data key="v_name">PyPedal</data>
+      <data key="v_version">2.0.0b6</data>
+      <data key="v_size">1028745</data>
+    </node>
+    <node id="n369">
+      <data key="v_name">PyGObject</data>
+      <data key="v_version">2.10.1</data>
+      <data key="v_size">162569</data>
+    </node>
+    <node id="n370">
+      <data key="v_name">TracRobotsTxt</data>
+      <data key="v_version">1.0.1</data>
+      <data key="v_size">5406</data>
+    </node>
+    <node id="n371">
+      <data key="v_name">spasmoidal</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">9324</data>
+    </node>
+    <node id="n372">
+      <data key="v_name">Pyreb</data>
+      <data key="v_version">0.1.6</data>
+      <data key="v_size">46027</data>
+    </node>
+    <node id="n373">
+      <data key="v_name">LSystem2</data>
+      <data key="v_version">1.6</data>
+      <data key="v_size">5748</data>
+    </node>
+    <node id="n374">
+      <data key="v_name">qp</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">70336</data>
+    </node>
+    <node id="n375">
+      <data key="v_name">RDFFormats</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">41680</data>
+    </node>
+    <node id="n376">
+      <data key="v_name">libxml2dom</data>
+      <data key="v_version">0.3.6</data>
+      <data key="v_size">31643</data>
+    </node>
+    <node id="n377">
+      <data key="v_name">PDIS-XPath</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">18008</data>
+    </node>
+    <node id="n378">
+      <data key="v_name">M2Crypto</data>
+      <data key="v_version">0.17</data>
+      <data key="v_size">44525</data>
+    </node>
+    <node id="n379">
+      <data key="v_name">processing</data>
+      <data key="v_version">0.11</data>
+      <data key="v_size">31133</data>
+    </node>
+    <node id="n380">
+      <data key="v_name">TracWikiTemplates</data>
+      <data key="v_version">0.3.0rc3</data>
+      <data key="v_size">80864</data>
+    </node>
+    <node id="n381">
+      <data key="v_name">zdaemon</data>
+      <data key="v_version">2.0a6</data>
+      <data key="v_size">42582</data>
+    </node>
+    <node id="n382">
+      <data key="v_name">i18ndude</data>
+      <data key="v_version">2.1.1</data>
+      <data key="v_size">80744</data>
+    </node>
+    <node id="n383">
+      <data key="v_name">icalendar</data>
+      <data key="v_version">1.2</data>
+      <data key="v_size">71947</data>
+    </node>
+    <node id="n384">
+      <data key="v_name">ObjectStateTracer</data>
+      <data key="v_version">0.1a0.dev-r548</data>
+      <data key="v_size">23880</data>
+    </node>
+    <node id="n385">
+      <data key="v_name">scgi</data>
+      <data key="v_version">1.8</data>
+      <data key="v_size">20805</data>
+    </node>
+    <node id="n386">
+      <data key="v_name">Twisted</data>
+      <data key="v_version">2.1.0</data>
+      <data key="v_size">1078044</data>
+    </node>
+    <node id="n387">
+      <data key="v_name">z3c.etestbrowser</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">5990</data>
+    </node>
+    <node id="n388">
+      <data key="v_name">Quadtree</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">32773</data>
+    </node>
+    <node id="n389">
+      <data key="v_name">hurry.query</data>
+      <data key="v_version">0.9.2</data>
+      <data key="v_size">15009</data>
+    </node>
+    <node id="n390">
+      <data key="v_name">OpenBayes</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">38366</data>
+    </node>
+    <node id="n391">
+      <data key="v_name">TurboTinyMCE</data>
+      <data key="v_version">1.0.6</data>
+      <data key="v_size">1040344</data>
+    </node>
+    <node id="n392">
+      <data key="v_name">z3c.pluggabletemplates</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">19784</data>
+    </node>
+    <node id="n393">
+      <data key="v_name">python-fastcgi</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">11180</data>
+    </node>
+    <node id="n394">
+      <data key="v_name">py2tex</data>
+      <data key="v_version">4.3</data>
+      <data key="v_size">313159</data>
+    </node>
+    <node id="n395">
+      <data key="v_name">Tasty</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">115029</data>
+    </node>
+    <node id="n396">
+      <data key="v_name">CleverHarold</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">327425</data>
+    </node>
+    <node id="n397">
+      <data key="v_name">worldcookery</data>
+      <data key="v_version">2.0.1</data>
+      <data key="v_size">252108</data>
+    </node>
+    <node id="n398">
+      <data key="v_name">freeform</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">49685</data>
+    </node>
+    <node id="n399">
+      <data key="v_name">ISPManCCP</data>
+      <data key="v_version">0.0.1alpha3.1</data>
+      <data key="v_size">129385</data>
+    </node>
+    <node id="n400">
+      <data key="v_name">deminaction</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">13891</data>
+    </node>
+    <node id="n401">
+      <data key="v_name">TurboLucene</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">12654</data>
+    </node>
+    <node id="n402">
+      <data key="v_name">wsgixml</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">19385</data>
+    </node>
+    <node id="n403">
+      <data key="v_name">Allegra</data>
+      <data key="v_version">0.63</data>
+      <data key="v_size">52517</data>
+    </node>
+    <node id="n404">
+      <data key="v_name">pyIrcServer</data>
+      <data key="v_version">0.0.5.0-Alpha</data>
+      <data key="v_size">86120</data>
+    </node>
+    <node id="n405">
+      <data key="v_name">DivDialogs</data>
+      <data key="v_version">0.1a1.dev-r543</data>
+      <data key="v_size">168141</data>
+    </node>
+    <node id="n406">
+      <data key="v_name">greenlet</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">15037</data>
+    </node>
+    <node id="n407">
+      <data key="v_name">memojito</data>
+      <data key="v_version">0.5.1.dev-r25547</data>
+      <data key="v_size">6034</data>
+    </node>
+    <node id="n408">
+      <data key="v_name">eagle</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">66891</data>
+    </node>
+    <node id="n409">
+      <data key="v_name">tramline</data>
+      <data key="v_version">0.5.1</data>
+      <data key="v_size">18212</data>
+    </node>
+    <node id="n410">
+      <data key="v_name">cogplanet</data>
+      <data key="v_version">0.8</data>
+      <data key="v_size">35912</data>
+    </node>
+    <node id="n411">
+      <data key="v_name">atomstorage</data>
+      <data key="v_version">0.1.2.1</data>
+      <data key="v_size">8308</data>
+    </node>
+    <node id="n412">
+      <data key="v_name">maharishi</data>
+      <data key="v_version">0.1.0dev</data>
+      <data key="v_size">19640</data>
+    </node>
+    <node id="n413">
+      <data key="v_name">BuffetString</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">4236</data>
+    </node>
+    <node id="n414">
+      <data key="v_name">xlrd</data>
+      <data key="v_version">0.5.2</data>
+      <data key="v_size">104549</data>
+    </node>
+    <node id="n415">
+      <data key="v_name">evogrid</data>
+      <data key="v_version">0.1.0</data>
+      <data key="v_size">166608</data>
+    </node>
+    <node id="n416">
+      <data key="v_name">TracUnixGroups</data>
+      <data key="v_version">0.1-r1</data>
+      <data key="v_size">1227</data>
+    </node>
+    <node id="n417">
+      <data key="v_name">restresource</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">9965</data>
+    </node>
+    <node id="n418">
+      <data key="v_name">nestoria</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">5334</data>
+    </node>
+    <node id="n419">
+      <data key="v_name">static</data>
+      <data key="v_version">0.3.3</data>
+      <data key="v_size">11833</data>
+    </node>
+    <node id="n420">
+      <data key="v_name">TemplateBrowser</data>
+      <data key="v_version">1.0Alpha</data>
+      <data key="v_size">8111</data>
+    </node>
+    <node id="n421">
+      <data key="v_name">gocept.download</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">5522</data>
+    </node>
+    <node id="n422">
+      <data key="v_name">pyspf</data>
+      <data key="v_version">2.0.2</data>
+      <data key="v_size">71528</data>
+    </node>
+    <node id="n423">
+      <data key="v_name">TurboCheetah</data>
+      <data key="v_version">0.9.5</data>
+      <data key="v_size">18855</data>
+    </node>
+    <node id="n424">
+      <data key="v_name">zc.recipe.zope3checkout</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">5495</data>
+    </node>
+    <node id="n425">
+      <data key="v_name">archgenxml</data>
+      <data key="v_version">1.6.a.dev-r6836</data>
+      <data key="v_size">218290</data>
+    </node>
+    <node id="n426">
+      <data key="v_name">ldappas</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">18383</data>
+    </node>
+    <node id="n427">
+      <data key="v_name">pxc200</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">2562</data>
+    </node>
+    <node id="n428">
+      <data key="v_name">pyastre</data>
+      <data key="v_version">0.9.9</data>
+      <data key="v_size">225918</data>
+    </node>
+    <node id="n429">
+      <data key="v_name">Webware-for-Python</data>
+      <data key="v_version">0.9.2</data>
+      <data key="v_size">891726</data>
+    </node>
+    <node id="n430">
+      <data key="v_name">DBUtils</data>
+      <data key="v_version">0.9.2</data>
+      <data key="v_size">64636</data>
+    </node>
+    <node id="n431">
+      <data key="v_name">pygpx</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">67332</data>
+    </node>
+    <node id="n432">
+      <data key="v_name">dap.plugins.gdal</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">8437</data>
+    </node>
+    <node id="n433">
+      <data key="v_name">Zenoss-Plugins</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">8218</data>
+    </node>
+    <node id="n434">
+      <data key="v_name">svnmock</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">15515</data>
+    </node>
+    <node id="n435">
+      <data key="v_name">atropine</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">9170</data>
+    </node>
+    <node id="n436">
+      <data key="v_name">EuroPython2006_PyQt4_Examples</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">299918</data>
+    </node>
+    <node id="n437">
+      <data key="v_name">WB</data>
+      <data key="v_version">4.16</data>
+      <data key="v_size">168914</data>
+    </node>
+    <node id="n438">
+      <data key="v_name">pyannodex</data>
+      <data key="v_version">0.7.2</data>
+      <data key="v_size">23244</data>
+    </node>
+    <node id="n439">
+      <data key="v_name">SPyRE</data>
+      <data key="v_version">0.7.1</data>
+      <data key="v_size">168319</data>
+    </node>
+    <node id="n440">
+      <data key="v_name">screencastwriter</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">6646</data>
+    </node>
+    <node id="n441">
+      <data key="v_name">parallel</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">48303</data>
+    </node>
+    <node id="n442">
+      <data key="v_name">PyOpenGL</data>
+      <data key="v_version">3.0.0a5</data>
+      <data key="v_size">2233966</data>
+    </node>
+    <node id="n443">
+      <data key="v_name">interval</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">11621</data>
+    </node>
+    <node id="n444">
+      <data key="v_name">pywinauto</data>
+      <data key="v_version">0.1.3</data>
+      <data key="v_size">236132</data>
+    </node>
+    <node id="n445">
+      <data key="v_name">xattr</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">25736</data>
+    </node>
+    <node id="n446">
+      <data key="v_name">PyPerforce</data>
+      <data key="v_version">0.3a1</data>
+      <data key="v_size">577664</data>
+    </node>
+    <node id="n447">
+      <data key="v_name">IMDbPY</data>
+      <data key="v_version">2.8</data>
+      <data key="v_size">165514</data>
+    </node>
+    <node id="n448">
+      <data key="v_name">ZConfig</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">163766</data>
+    </node>
+    <node id="n449">
+      <data key="v_name">Quixote</data>
+      <data key="v_version">2.3</data>
+      <data key="v_size">192316</data>
+    </node>
+    <node id="n450">
+      <data key="v_name">zc.rst2</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">1923</data>
+    </node>
+    <node id="n451">
+      <data key="v_name">clearsilver</data>
+      <data key="v_version">0.10.1</data>
+      <data key="v_size">193933</data>
+    </node>
+    <node id="n452">
+      <data key="v_name">pykcs11</data>
+      <data key="v_version">1.1.1</data>
+      <data key="v_size">171912</data>
+    </node>
+    <node id="n453">
+      <data key="v_name">zc.resourcelibrary</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">21955</data>
+    </node>
+    <node id="n454">
+      <data key="v_name">wc.cookiecredentials</data>
+      <data key="v_version">2.0</data>
+      <data key="v_size">9560</data>
+    </node>
+    <node id="n455">
+      <data key="v_name">reflex</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">9627</data>
+    </node>
+    <node id="n456">
+      <data key="v_name">pexif</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">10096</data>
+    </node>
+    <node id="n457">
+      <data key="v_name">WebOrganiser</data>
+      <data key="v_version">0.2.3</data>
+      <data key="v_size">128874</data>
+    </node>
+    <node id="n458">
+      <data key="v_name">DeferArgs</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">2303</data>
+    </node>
+    <node id="n459">
+      <data key="v_name">Dejavu</data>
+      <data key="v_version">1.5.0RC1</data>
+      <data key="v_size">307619</data>
+    </node>
+    <node id="n460">
+      <data key="v_name">HTConsole</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">110380</data>
+    </node>
+    <node id="n461">
+      <data key="v_name">pysugar</data>
+      <data key="v_version">0.0.6</data>
+      <data key="v_size">33937</data>
+    </node>
+    <node id="n462">
+      <data key="v_name">emusic</data>
+      <data key="v_version">0.6a</data>
+      <data key="v_size">5638</data>
+    </node>
+    <node id="n463">
+      <data key="v_name">ffse</data>
+      <data key="v_version">1.0.0</data>
+      <data key="v_size">34393</data>
+    </node>
+    <node id="n464">
+      <data key="v_name">PyPI-Browser</data>
+      <data key="v_version">1.4</data>
+      <data key="v_size">86891</data>
+    </node>
+    <node id="n465">
+      <data key="v_name">PyWavelets</data>
+      <data key="v_version">0.1.6</data>
+      <data key="v_size">75170</data>
+    </node>
+    <node id="n466">
+      <data key="v_name">RDFMessage</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">56938</data>
+    </node>
+    <node id="n467">
+      <data key="v_name">buildutils</data>
+      <data key="v_version">0.1.2</data>
+      <data key="v_size">80409</data>
+    </node>
+    <node id="n468">
+      <data key="v_name">TurboClearsilver</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">11469</data>
+    </node>
+    <node id="n469">
+      <data key="v_name">qrypto</data>
+      <data key="v_version">1.5</data>
+      <data key="v_size">974</data>
+    </node>
+    <node id="n470">
+      <data key="v_name">resolver</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">3755</data>
+    </node>
+    <node id="n471">
+      <data key="v_name">wsgize</data>
+      <data key="v_version">0.4</data>
+      <data key="v_size">6765</data>
+    </node>
+    <node id="n472">
+      <data key="v_name">pida</data>
+      <data key="v_version">0.4.0</data>
+      <data key="v_size">565728</data>
+    </node>
+    <node id="n473">
+      <data key="v_name">PdbTextMateSupport</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">1858</data>
+    </node>
+    <node id="n474">
+      <data key="v_name">Mosaic</data>
+      <data key="v_version">0.0.2</data>
+      <data key="v_size">5655</data>
+    </node>
+    <node id="n475">
+      <data key="v_name">qct</data>
+      <data key="v_version">0.8</data>
+      <data key="v_size">79611</data>
+    </node>
+    <node id="n476">
+      <data key="v_name">miniconf</data>
+      <data key="v_version">1.2.0</data>
+      <data key="v_size">20475</data>
+    </node>
+    <node id="n477">
+      <data key="v_name">yolk</data>
+      <data key="v_version">0.0.2</data>
+      <data key="v_size">28817</data>
+    </node>
+    <node id="n478">
+      <data key="v_name">zc.displayname</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">15841</data>
+    </node>
+    <node id="n479">
+      <data key="v_name">AuthKit</data>
+      <data key="v_version">0.1.5a</data>
+      <data key="v_size">217868</data>
+    </node>
+    <node id="n480">
+      <data key="v_name">pygoogle</data>
+      <data key="v_version">0.6</data>
+      <data key="v_size">33672</data>
+    </node>
+    <node id="n481">
+      <data key="v_name">zope.interface</data>
+      <data key="v_version">3.3.0b1</data>
+      <data key="v_size">104140</data>
+    </node>
+    <node id="n482">
+      <data key="v_name">PyLogo</data>
+      <data key="v_version">0.3</data>
+      <data key="v_size">104367</data>
+    </node>
+    <node id="n483">
+      <data key="v_name">progressbar</data>
+      <data key="v_version">2.2</data>
+      <data key="v_size">5118</data>
+    </node>
+    <node id="n484">
+      <data key="v_name">TracPygments</data>
+      <data key="v_version">0.1</data>
+      <data key="v_size">15067</data>
+    </node>
+    <node id="n485">
+      <data key="v_name">scribe</data>
+      <data key="v_version">0.3.1</data>
+      <data key="v_size">3231</data>
+    </node>
+    <node id="n486">
+      <data key="v_name">SchevoWeb</data>
+      <data key="v_version">1.0a2</data>
+      <data key="v_size">34493</data>
+    </node>
+    <node id="n487">
+      <data key="v_name">Jinja</data>
+      <data key="v_version">0.9</data>
+      <data key="v_size">266291</data>
+    </node>
+    <node id="n488">
+      <data key="v_name">textile</data>
+      <data key="v_version">2.0.11</data>
+      <data key="v_size">59964</data>
+    </node>
+    <node id="n489">
+      <data key="v_name">Fozzy</data>
+      <data key="v_version">0.7</data>
+      <data key="v_size">9920</data>
+    </node>
+    <node id="n490">
+      <data key="v_name">filelike</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">42713</data>
+    </node>
+    <node id="n491">
+      <data key="v_name">FileFields</data>
+      <data key="v_version">0.1a6.dev-r464</data>
+      <data key="v_size">24663</data>
+    </node>
+    <node id="n492">
+      <data key="v_name">TheMingServer</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">62860</data>
+    </node>
+    <node id="n493">
+      <data key="v_name">Select-Shuttle</data>
+      <data key="v_version">1.0</data>
+      <data key="v_size">10411</data>
+    </node>
+    <node id="n494">
+      <data key="v_name">migrate</data>
+      <data key="v_version">0.2.2</data>
+      <data key="v_size">55165</data>
+    </node>
+    <node id="n495">
+      <data key="v_name">xmlmodel</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">4088</data>
+    </node>
+    <node id="n496">
+      <data key="v_name">easyBay</data>
+      <data key="v_version">0.1dev</data>
+      <data key="v_size">14349</data>
+    </node>
+    <node id="n497">
+      <data key="v_name">PalmDB</data>
+      <data key="v_version">1.7.2</data>
+      <data key="v_size">77411</data>
+    </node>
+    <node id="n498">
+      <data key="v_name">pycoco</data>
+      <data key="v_version">0.2</data>
+      <data key="v_size">34299</data>
+    </node>
+    <node id="n499">
+      <data key="v_name">calcore</data>
+      <data key="v_version">2.2.1</data>
+      <data key="v_size">90797</data>
+    </node>
+    <node id="n500">
+      <data key="v_name">NoseXML</data>
+      <data key="v_version">0.19</data>
+      <data key="v_size">2727</data>
+    </node>
+    <node id="n501">
+      <data key="v_name">typecheck</data>
+      <data key="v_version">0.3.5</data>
+      <data key="v_size">37085</data>
+    </node>
+    <node id="n502">
+      <data key="v_name">mathdom</data>
+      <data key="v_version">0.7.1</data>
+      <data key="v_size">175473</data>
+    </node>
+    <node id="n503">
+      <data key="v_name">pyproj</data>
+      <data key="v_version">1.8.0</data>
+      <data key="v_size">31463</data>
+    </node>
+    <node id="n504">
+      <data key="v_name">PasteDeploy</data>
+      <data key="v_version">1.1</data>
+      <data key="v_size">37456</data>
+    </node>
+    <node id="n505">
+      <data key="v_name">pymage</data>
+      <data key="v_version">0.1.1</data>
+      <data key="v_size">35301</data>
+    </node>
+    <node id="n506">
+      <data key="v_name">tgcrud</data>
+      <data key="v_version">0.8</data>
+      <data key="v_size">12302</data>
+    </node>
+    <node id="n507">
+      <data key="v_name">yaro</data>
+      <data key="v_version">0.5</data>
+      <data key="v_size">11056</data>
+    </node>
+    <edge source="n95" target="n218">
+    </edge>
+    <edge source="n375" target="n268">
+    </edge>
+    <edge source="n466" target="n376">
+    </edge>
+    <edge source="n466" target="n268">
+    </edge>
+    <edge source="n457" target="n376">
+    </edge>
+    <edge source="n457" target="n268">
+    </edge>
+    <edge source="n242" target="n376">
+    </edge>
+    <edge source="n86" target="n218">
+    </edge>
+    <edge source="n215" target="n254">
+    </edge>
+    <edge source="n215" target="n218">
+    </edge>
+    <edge source="n27" target="n254">
+    </edge>
+  </graph>
+</graphml>
