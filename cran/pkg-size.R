@@ -11,7 +11,7 @@ data <- merge(index[source == "cran"], functions,
               by=c("source", "repository", "ref"), all.x=TRUE)
 data[is.na(loc), loc := 0]
 data[is.na(nfunc), nfunc := 0]
-.
+
 DiskUsage <- function(path) {
   res <- system2("du", c("-s", path), stdout=TRUE)
   strsplit(res, "\t")[[1]][1]
