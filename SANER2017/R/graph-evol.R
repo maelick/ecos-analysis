@@ -49,7 +49,9 @@ for (e in ecos) {
     if (!file.exists(f)) {
       g <- DependencyGraph(d, packages, deps)
       g <- Sizes(g, sizes)
-      write_graph(g, gzfile(f, "wb"), format="graphml")
+      f <- gzfile(f, "wb")
+      write_graph(g, f, format="graphml")
+      close(f)
     }
   }
 }
