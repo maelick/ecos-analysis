@@ -25,10 +25,12 @@ HTTPHeader <- function(url) {
 
 GetSize <- function(package, version) {
   url <- sprintf(url, package, version)
-  header <- HTTPHeader(url)
-  if (header$response.code == 200) {
-    header$content.length.download
-  } else NA_integer_
+  tryCatch({
+    header <- HTTPHeader(url)
+    if (header$response.code == 200) {
+      header$content.length.download
+    } else NA_integer_
+  }, error=function(e) NA_integer_)
 }
 
 InitCluster <- function(n=4) {
