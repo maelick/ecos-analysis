@@ -1,5 +1,4 @@
 import pandas
-import json
 
 gems = pandas.read_csv('data/versions.csv')
 sizes = pandas.read_csv('data/sizes.csv')
