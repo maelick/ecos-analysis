@@ -38,3 +38,8 @@ packages = replace_subset(packages, "time >= '2009-07-25' and time < '2009-07-26
 packages = packages.set_index(['package', 'version'])
 
 packages.to_csv('data/packages.csv')
+
+deps = pandas.read_csv('data/deps.csv').set_index(['package', 'version'])[['dependency', 'constraint']]
+deps = deps.reset_index().merge(packages, right_index=True, left_on=['package', 'version'])
+deps = deps[['dependency', 'constraint']]
+deps.to_csv('data/deps.csv')
